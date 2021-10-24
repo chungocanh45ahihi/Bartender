@@ -12,12 +12,12 @@
 - Sau tất cả, thu được các dataframes và export các dataframes đó ra từng file **csv** tương ứng. Import các files csv vào hệ quản trị dữ liệu mysql và các dữ liệu đã sẵn sàng để được sử dụng.
 
 #### Tổng quan về dữ liệu thu được:
-**++1. category_groups.json:++**
+**1. category_groups.json:**
 - category_groups table:
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/category_groups.png)
 **Mô tả**: bảng này gồm 9 trường, chứa dữ liệu về các thể loại, phân nhóm thức ăn như: đồ uống, tráng miệng, ăn chay, lẩu, đồ ăn tinh bột,...
 
-**++2. dishes.json:++**
+**2. dishes.json:**
 - dish_orders table:
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/dish_orderes.png)
 **Mô tả**: bảng này gồm 17 trường, chứa dữ liệu về các đơn đặt hàng với các miêu tả như: tên món, số lượng, đơn giá, ảnh minh họa,...
@@ -26,7 +26,7 @@
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/dish_types.png)
 **Mô tả**: bảng này gồm 4 trường, chứa dữ liệu miêu tả về các đơn hàng ở bảng **dish_orders** như: thể loại của đơn hàng, mã nhà hàng tương ứng với mỗi đơn hàng,...
 
-**++3. restaurants.json:++**
+**3. restaurants.json:**
 - restaurants table:
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/restaurants.png)
 **Mô tả**: bảng này gồm 39 trường, chứa các dữ liệu về các đơn hàng với các miêu tả như: mã đơn hàng, tên món, đơn giá, ảnh minh họa, địa điểm,...
