@@ -29,7 +29,9 @@
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/dishes_relation.png)
 
 **3. restaurants.json:**
+
 - restaurants table:
+
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/restaurants.png)
 **Mô tả**: bảng này gồm 39 trường, chứa các dữ liệu về các đơn hàng với các miêu tả như: mã đơn hàng, tên món, đơn giá, ảnh minh họa, địa điểm,...
 
