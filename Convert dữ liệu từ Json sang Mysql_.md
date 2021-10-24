@@ -1,9 +1,9 @@
 # Convert dữ liệu từ Json sang Mysql:
-#### Crawl dữ liệu:
+## Crawl dữ liệu:
 - Dữ liệu được crawl từ **https://shopeefood.vn/** thông qua API và thu được dưới dạng file **json**.
 - Các files json thu được: **category_groups.json**, **dishes.json**, **restaurants.json**.
 ---
-#### Xử lý dữ liệu:
+## Xử lý dữ liệu:
 
 - Các files json được đọc vào python và xử lý bằng các thư viện như **pandas**, **numpy**,.... 
 - Ban đầu, mỗi file json sẽ được đọc vào một **dataframe** riêng biệt. Các cột nào mà có phần tử ở dạng danh sách sẽ được tách riêng ra một dataframe mới.
@@ -11,7 +11,7 @@
 - Loại bỏ các hàng trùng lặp.
 - Sau tất cả, thu được các dataframes và export các dataframes đó ra từng file **csv** tương ứng. Import các files csv vào hệ quản trị dữ liệu mysql và các dữ liệu đã sẵn sàng để được sử dụng.
 ---
-#### Tổng quan về dữ liệu thu được:
+## Tổng quan về dữ liệu thu được:
 **1. category_groups.json:**
 - category_groups table:
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/category_groups.png)
@@ -33,6 +33,7 @@
 - restaurants table:
 
 ![](https://raw.githubusercontent.com/phamtrunghieu131/Bartender/main/restaurants.png)
+
 **Mô tả**: bảng này gồm 39 trường, chứa các dữ liệu về các đơn hàng với các miêu tả như: mã đơn hàng, tên món, đơn giá, ảnh minh họa, địa điểm,...
 
 - phones:
